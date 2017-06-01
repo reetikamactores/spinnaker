@@ -6,7 +6,7 @@ node {
     }
 
     stage('Build image') {
-        app = docker.build("reetikarepo.mactores.com/reetikarepo")
+        app = docker.build("https://reetikarepo.mactores.com/reetikarepo")
     }
 
 
